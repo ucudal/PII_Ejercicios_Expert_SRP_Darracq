@@ -21,12 +21,13 @@ namespace SRP
 
 
     }
+    //Separa en dos clases distintas la clase Book y la clase Shelvebook 
     
       public class ShelveBook{
           public string LibrarySector { get ; set; }
           public string LibraryShelve { get ; set; }
           
-          public (String sector, String shelve){
+          public ShelveBook(String sector, String shelve){
             this.LibrarySector = sector;
             this.LibraryShelve = shelve;
               
