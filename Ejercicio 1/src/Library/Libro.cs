@@ -29,6 +29,8 @@ namespace SRP
           public (String sector, String shelve){
             this.LibrarySector = sector;
             this.LibraryShelve = shelve;
-          }
-        }
+              
+       }
+          
+      }
 }
